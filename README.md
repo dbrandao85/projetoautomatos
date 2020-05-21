@@ -5,6 +5,8 @@ Deve ser modelado e implementado um autômato que faça a validação de atribui
 seguinte sintaxe:
 
 identificador op_atrib (identificador | numero) (op_arit (identificador | numero) )* pv
+
+
 Sendo que:
 
 • identificador: inicia por uma letra minúscula, seguido por uma quantidade qualquer de letras minúsculas,
@@ -19,6 +21,7 @@ de um ou mais dígitos.
 • op_arit: é representado por um dos operadores aritméticos (‘+’ | ‘-’ | ‘*’ | ‘/’ )
 
 • pv: é representado pelo caractere ‘;’.
+
 
 Os tokens são representados pelas seguintes expressões regulares:
 
